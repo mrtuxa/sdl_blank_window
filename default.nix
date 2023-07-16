@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "my-app";
   src = ./.;
 
-  buildInputs = [ SDL2 boost poco ];
+  buildInputs = [ SDL2 ];
 
   buildPhase = "make build";
 
